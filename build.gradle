@@ -103,6 +103,7 @@ ext {
     minorVersion = 05
     //patchVersion = auto generation
 
+    //mac 사용자 아래 114까지 주석처리!!
     if (Os.isFamily(Os.FAMILY_WINDOWS)) {
         println "*** Windows is not support build "
     }else {
