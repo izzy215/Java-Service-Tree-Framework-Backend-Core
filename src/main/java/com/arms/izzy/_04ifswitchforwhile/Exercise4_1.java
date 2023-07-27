@@ -1,4 +1,4 @@
-package com.arms.izzy._06ifswitchforwhile;
+package com.arms.izzy._04ifswitchforwhile;
 
 public class Exercise4_1 {
     public static void main(String[] args) {
