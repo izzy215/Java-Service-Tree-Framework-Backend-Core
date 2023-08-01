@@ -12,12 +12,12 @@ public class Exercise5_4 {
         int total = 0;
         float average = 0;
         for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length ) {
+            for (int j = 0; j < arr[i].length;j++ ) {
                 total += arr[i][j];
             }
         }
         average = total / (float) (arr.length * arr[0].length);
         System.out.println("average = " + average);
-        System.out.println("sum = " + sum);
+        System.out.println("total = " + total);
     }
 }
